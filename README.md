@@ -343,3 +343,7 @@ LearnovaX is **free and open-source**.
 Happy Studying! 🎓
 
 Built with ❤️ for students everywhere. No ads. No costs. Just learning.
+The AI-powered future of smarter studying.”
+
+
+
