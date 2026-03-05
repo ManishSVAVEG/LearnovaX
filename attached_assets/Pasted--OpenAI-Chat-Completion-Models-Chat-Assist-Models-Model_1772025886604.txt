@@ -1,0 +1,67 @@
+🧠 OpenAI (Chat & Completion Models)
+📌 Chat / Assist Models
+Model Name	Best For
+gpt-4.1	General reasoning & assistants
+gpt-4.1-preview	Highest quality multi-modal context
+gpt-4.1-code­-preview	Coding + technical outputs
+gpt-4o-nano	Efficient, cheaper chat
+gpt-4o	Global best all-around chat
+gpt-4o-realtime-preview	Near-instant responses
+gpt-4o-light	Lower cost, still strong
+📌 Embedding Models
+Model Name	Use
+text-embedding-3-small	Semantic search
+text-embedding-3-large	High-quality vector embedding
+
+⚠️ NOTE: “GPT-X” models (old gpt-3.5/gpt-3) are still available but not recommended for production since newer models are both cheaper and much stronger.
+
+⚡ Google Gemini (Vertex AI)
+
+Google ke AI models ka naming thoda change hota hai. Latest practical models:
+
+📌 Chat / Reasoning
+Model Name	Use
+gemini-1.5-pro	Strong reasoning + exam style outputs
+gemini-1.5-symphony	Balanced cost & quality
+gemini-1.5-flash	Fast responses
+gemini-ultra-light	Lower cost conversational
+📌 Embeddings (Vertex AI)
+Model	Use
+embedding-gemini-1.0-large	High-quality vectors
+embedding-gemini-1.0-small	Fast + cheap
+
+Important: Google uses Vertex AI API with names like "projects/…/locations/…/models/...". Tumhare backend ko is format ka support rakhna chahiye.
+
+⚡ Groq Models
+
+Groq ke offerings jo abhi supported hain:
+
+📌 Chat / Generation
+Model	Use
+groq-2.0-baseline	Fast responses
+groq-2.0-high-accuracy	More accurate outputs
+groq-2.0-low-cost	Cheaper inference
+📌 Embeddings
+
+Groq bhi embedding service deta hai, version naming cloud provider par depend karta hai — tum documentation use karke latest version retrieve karna better hai.
+
+🫡 Anthropic (Claude Series)
+
+Claude ka ecosystem abhi production-ready hai, aur tum isko choose kar sakte ho:
+
+Model	Use
+claude-2.2	General academic / chat
+claude-3.1-preview	Strong reasoning
+claude-4.1	Highest quality responses
+claude­-vision-preview	Vision + text combo
+🗂 Meta / Mistral (if allowed)
+
+Agar tum open infrastructure use kar rahe ho, kuch free / semi-open models:
+
+Model	Use
+mistral-large	Strong open-model
+mistral-medium	Standard usage
+falcon-180B	High-capacity generation
+falcon-7B-instruct	Small chat model
+
+⚠️ Important: Meta/Falcon/Mistral may require separate endpoints and licensing depending on provider — check terms before use.

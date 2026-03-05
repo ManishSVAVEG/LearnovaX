@@ -1,0 +1,599 @@
+🔥 LearnovaX – FULLY FREE GLOBAL ANDROID BUILD PROMPT
+
+You are a senior Android architect, AI systems engineer, and global EdTech product strategist.
+
+Build a PRODUCTION-GRADE Android application called:
+
+LearnovaX
+
+This app must be:
+
+Completely FREE
+
+No subscriptions
+
+No billing integration
+
+No feature locking
+
+No ads initially
+
+No hardcoded API keys
+
+
+All AI usage must rely on user-provided API keys.
+
+This must be Google Play ready but fully free.
+
+
+---
+
+📱 TECH STACK
+
+Kotlin
+
+Jetpack Compose
+
+MVVM + Clean Architecture
+
+Coroutines + Flow
+
+Room Database
+
+Retrofit
+
+Hilt
+
+EncryptedSharedPreferences
+
+WorkManager
+
+Firebase Cloud Messaging
+
+Local caching
+
+Proper error handling
+
+
+No Google Play Billing.
+
+
+---
+
+🌍 GLOBAL CONTEXT SYSTEM
+
+Mandatory onboarding:
+
+User must select:
+
+Country
+
+Education Board
+
+Grade/Class
+
+Subjects
+
+
+All AI responses must dynamically adapt to this context.
+
+Persist locally.
+
+No usage allowed without selecting context.
+
+
+---
+
+🔐 AUTH SYSTEM (FREE)
+
+Registration:
+
+Email
+
+Username
+
+Password
+
+Confirm Password
+
+
+Security:
+
+Password hashing
+
+JWT generation
+
+Secure storage
+
+Auto-login
+
+Logout
+
+Session persistence
+
+Session expiration check
+
+
+No third-party login required initially.
+
+
+---
+
+🤖 MULTI AI PROVIDER SYSTEM (MANDATORY)
+
+User must:
+
+Select AI Provider:
+
+OpenAI
+
+Gemini
+
+Groq
+
+Extendable architecture
+
+
+Enter their own API key
+
+Select model
+
+Validate key
+
+Switch providers anytime
+
+
+Rules:
+
+No hardcoded API keys
+
+API key encrypted locally
+
+No backend secrets exposed
+
+Dynamic model switching
+
+Safe request routing
+
+Graceful failure handling
+
+
+App must function only after API key validation.
+
+
+---
+
+📚 FEATURE 1: NOTES GENERATOR
+
+Input:
+
+Text
+
+PDF
+
+Image via OCR
+
+YouTube link
+
+
+User selects:
+
+Difficulty
+
+Length
+
+Tone
+
+
+Output must:
+
+Be structured
+
+Use headings
+
+Definitions
+
+Key concepts
+
+Examples
+
+Bullet points
+
+Highlight keywords
+
+Exam-ready language
+
+
+Actions:
+
+Save offline
+
+Export as PDF
+
+Regenerate
+
+Organize by subject
+
+
+Unlimited usage.
+
+
+---
+
+📄 FEATURE 2: SUMMARY GENERATOR
+
+Types:
+
+1. Ultra Quick Revision
+
+
+2. Exam-Oriented Summary
+
+
+3. Concept Breakdown
+
+
+4. Weakness-Based Summary
+
+
+5. One Page Crash Sheet
+
+
+6. Formula Extraction Mode
+
+
+7. Definition Extraction Mode
+
+
+8. Memory Trigger Mode
+
+
+
+Must:
+
+Stay within selected syllabus
+
+Adjust complexity to grade
+
+Highlight probable exam questions
+
+Highlight important keywords
+
+
+Unlimited usage.
+
+
+---
+
+📝 FEATURE 3: ADVANCED EXAM GENERATOR
+
+User selects:
+
+Subject
+
+Total marks
+
+Number of 1/2/3/4/5 mark questions
+
+Difficulty
+
+Timer duration
+
+
+System must:
+
+Validate mark distribution live
+
+Generate exam paper
+
+Show countdown timer
+
+Allow mark for review
+
+Auto-submit when time ends
+
+Save answers locally
+
+
+Result screen must:
+
+Evaluate answers via AI
+
+Per-question score
+
+Topic-wise breakdown
+
+Accuracy %
+
+Weak topic identification
+
+Mistake explanation
+
+
+Unlimited usage.
+
+
+---
+
+📊 FEATURE 4: ANALYTICS ENGINE
+
+Track:
+
+Accuracy %
+
+Topic mastery
+
+Weekly trend
+
+Monthly progress
+
+Study time
+
+Improvement score
+
+
+Visual:
+
+Animated graphs
+
+Progress rings
+
+Clean dashboard UI
+
+
+All data stored locally.
+
+
+---
+
+⏰ FEATURE 5: STUDY SCHEDULER
+
+User can:
+
+Select subject
+
+Pick date/time
+
+Set duration
+
+Set repeat
+
+
+System must:
+
+Trigger notification
+
+Trigger alarm sound
+
+Track completed sessions
+
+Track missed sessions
+
+Maintain streak
+
+
+AI mode:
+
+Auto-generate study plan
+
+Adjust based on weak areas
+
+Adjust based on exam date
+
+
+Unlimited usage.
+
+
+---
+
+🏅 FEATURE 6: 100 BADGE SYSTEM
+
+Create 100 badges.
+
+Each badge must include:
+
+id
+
+name
+
+description
+
+difficulty
+
+unlockCondition
+
+progressRequired
+
+
+Difficulty Levels:
+
+Easy
+
+Medium
+
+Hard
+
+Elite
+
+
+Unlock logic required.
+
+Animated unlock popup required.
+
+No badge locking behind payment.
+
+
+---
+
+💬 FEATURE 7: GLOBAL AI ASSISTANT
+
+Supports:
+
+Text query
+
+Image upload
+
+Camera capture
+
+PDF upload
+
+YouTube link
+
+
+Must include:
+
+Chat history
+
+Markdown rendering
+
+Typing animation
+
+Structured answers
+
+Step-by-step solutions
+
+Context memory
+
+
+Assistant must:
+
+Stay syllabus aligned
+
+Avoid hallucinations
+
+Avoid harmful content
+
+Remain academically serious
+
+
+Unlimited usage.
+
+
+---
+
+🧠 FEATURE 8: WEAKNESS DETECTION ENGINE
+
+System must:
+
+Track wrong answers
+
+Detect slow response patterns
+
+Identify weak subjects
+
+Suggest revision plan
+
+Suggest practice mode
+
+
+
+---
+
+🗂 FEATURE 9: PERSONAL LIBRARY
+
+User can:
+
+Save notes
+
+Save summaries
+
+Save exams
+
+Filter by subject
+
+Search content
+
+Delete or edit content
+
+
+
+---
+
+🎨 UI DESIGN SYSTEM
+
+Theme:
+
+Dark futuristic
+
+Neon cyan accents
+
+Electric purple highlights
+
+Glass-style cards
+
+Smooth transitions
+
+Minimal clutter
+
+
+Exam mode:
+
+Pure black
+
+Focus centered
+
+No distractions
+
+
+
+---
+
+📦 OFFLINE SUPPORT
+
+Cached notes
+
+Cached exams
+
+Local database
+
+Resume last session
+
+Offline reading support
+
+
+AI features require internet.
+
+
+---
+
+🔒 SECURITY
+
+Encrypted API key storage
+
+Secure JWT storage
+
+No secrets exposed
+
+Proper error handling
+
+No console logging of keys
+
+Rate limiting per session
+
+
+
+---
+
+🚀 FINAL OBJECTIVE
+
+Build a fully free, scalable, AI-powered Android educational ecosystem.
+
+It must feel:
+
+Intelligent
+
+Structured
+
+Professional
+
+Global level
+
+Long-term usable
+
+
+No monetization. No subscription. No feature restriction.
+
+Only user-provided API key model.
+
+
+---
